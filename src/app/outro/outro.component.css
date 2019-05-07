@@ -1,0 +1,46 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+.mirror {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+}
+.vote-buttons {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.row {
+  text-shadow: 1px 1px 5px black;
+  width: 100%;
+    align-self: center;
+}
+.fill {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: baseline;
+  min-height: 80vh;
+  line-height: 30px;
+}
+.icons fa-icon {
+  font-size: 355px;
+  stroke: white;
+  stroke-width: 10;
+  color: black;
+}
+@media only screen and (max-width: 1250px) {
+    .icons fa-icon {
+      font-size: 255px;
+  }
+  }
+  @media only screen and (max-width: 610px) {
+    .icons fa-icon {
+      font-size: 155px;
+      stroke: white;
+      stroke-width: 10;
+      color: black;
+    }
+  }
+  
